@@ -1,0 +1,77 @@
+{
+  "studentlist":
+  {
+    "1st year":
+    [
+      {
+      "name":"sai",
+  "id":101,
+"DOB":"12/02/99",
+      "markslist":
+      {
+        "Languages":"60%",
+        "groups":"75%",
+        "Foundational courses":"70%"
+      }
+    },
+    {
+      "name":"sowmya",
+  "id":102,
+"DOB":"22/08/99",
+      "markslist":
+      {
+        "Languages":"50%",
+        "groups":"65%",
+        "Foundational courses":"60%"
+      }
+    },
+    {
+      "name":"chiru",
+  "id":103,
+"DOB":"19/10/99",
+      "markslist":
+      {
+        "Languages":"88%",
+        "groups":"90%",
+        "Foundational courses":"70%"
+      }
+    }
+    ],
+    "2ndyear":
+    [
+      {
+      "name":"sai",
+  "id":101,
+"DOB":"12/02/99",
+      "markslist":
+      {
+        "Languages":"60%",
+        "groups":"75%",
+        "Foundational courses":"70%"
+      }
+    },
+    {
+      "name":"sowmya",
+  "id":102,
+"DOB":"22/08/99",
+      "markslist":
+      {
+        "Languages":"50%",
+        "groups":"65%",
+        "Foundational courses":"60%"
+      }
+    },
+    {
+      "name":"chiru",
+  "id":103,
+"DOB":"19/10/99",
+      "markslist":
+      {
+        "Languages":"88%",
+        "groups":"90%",
+        "Foundational courses":"70%"
+      }
+    }
+    ]
+  }
+}
