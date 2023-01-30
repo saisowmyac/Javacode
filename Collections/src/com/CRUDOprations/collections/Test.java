@@ -45,7 +45,7 @@ public class Test {
 
 		employer.updateEmployee(kiran, 2204);
 		employer.assginCources(amit, List.of(courses2));
-		employee.checkCourse(courses, amit);
+		employee.checkCourse(amit);
 
 		employer.viewEmployees();
 

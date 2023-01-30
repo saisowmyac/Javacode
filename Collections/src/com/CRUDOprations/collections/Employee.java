@@ -58,7 +58,7 @@ public class Employee {
 	}
 
 	public Employee() {
-		
+
 	}
 
 	public String toString() {
@@ -66,10 +66,9 @@ public class Employee {
 				+ employeeEmail + ", employeeSalary=" + employeeSalary + ", courses=" + courses + "]";
 	}
 
-	public void checkCourse(List<Course> course, Employee emp) {
-		System.out.println("\nCheck Employee Course: "+emp);
+	public void checkCourse(Employee emp) {
 
-//		System.out.println(emp.getEmployeeName() + " Courses Are: " + emp.getCourses());
+		System.out.println(emp.getEmployeeName() + " Courses Are: " + emp.getCourses());
 
 	}
 
