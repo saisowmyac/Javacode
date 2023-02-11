@@ -2,7 +2,7 @@ package com.Set.collections;
 
 import java.util.*;
 
-class Employee {
+public class Employee {
 	int id;
 	String name, address, doj;
 	double salary;

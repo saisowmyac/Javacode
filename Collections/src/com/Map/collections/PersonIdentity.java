@@ -14,6 +14,8 @@ public class PersonIdentity {
 		identity.put(786543087652l, "Kumar");
 		identity.put(657894321875l, "Pandu");
 		identity.put(123456789011l, "Navya");
+		identity.put(123456789011l, "N");
+		identity.put(123456789011l, "Navya");
 
 		// using iterator
 		Iterator<Long> itr = identity.keySet().iterator();

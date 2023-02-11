@@ -1,11 +1,13 @@
 package com.Arraylist.collections;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class ColorsList {
 
 	public static void main(String[] args) {
 		List<String> color = new LinkedList<>();
+		List<String> color2 = new LinkedList<>();
 		System.out.println("Colors List");
 		color.add("Green");// autoboxing
 		color.add("Red");
@@ -37,6 +39,8 @@ public class ColorsList {
 		for (int i = 0; i < arr.length; i++) {
 			System.out.println("Array Element: " + arr[i]);
 		}
+		color2=color.stream().filter(str->str.length()>4).collect(Collectors.toList());
+		System.out.println(color2);
 
 	}
 

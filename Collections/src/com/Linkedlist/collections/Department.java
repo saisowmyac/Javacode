@@ -52,6 +52,7 @@ public class Department {
 		System.out.println();
 
 		System.out.println(department.get(1));//Get the data particular index
+		
 
 	}
 

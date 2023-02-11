@@ -19,6 +19,7 @@ public class StudentData {
 		System.out.println(data);
 		System.out.println("7.0 index Position: " + data.indexOf(7.0));
 		System.out.println("7.0 last index position: " + data.lastIndexOf(7.0));
+	
 
 	}
 

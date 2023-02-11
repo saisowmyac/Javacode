@@ -14,6 +14,7 @@ public class Papulation {
 		papulation.put("USA", "33cr");
 		papulation.put("China", "141cr");
 		papulation.put("Uk", "6cr");
+		
 		// it does accept null points
 //		papulation.put("Pakistan", null);
 		System.out.println(papulation);

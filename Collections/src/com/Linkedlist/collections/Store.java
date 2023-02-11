@@ -48,8 +48,8 @@ public class Store {
 		System.out.println("Item is:   " + s.itemName + " \t Price is: "+ s.price + " \t Quantity: " + s.quantity+"\t Total: " + s.total);
 		
 		}
-	   
-		
+	   System.out.println("*****--->Strems<---*****");//using Steams
+		item.stream().filter(p->p.price>100).forEach(p->System.out.println(p.itemName+" ------> "+p.price));
 		
 	}
 
